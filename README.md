@@ -4,7 +4,7 @@ This repos has a sample "Hello World" flask application that we will deploy on E
 Here is the purpose of each file present in this repo:
 ```bash
 
-├── app.py         # A sample "Hello World" flask application
+├── app.py  # A sample "Hello World" flask application
 ├── ci-cd-codepipeline.cfn.yml # Cloudformation template to create the Codebuild, and Codepipeline, and related resources. 
 ├── buildspec.yml  # Codebuild will execute the commands available here. 
 ├── Dockerfile     # Codebuild will build an image using the Dockerfile, and push it to the Dockerhub/or AWS ECR. 
